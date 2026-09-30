@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#05060f">
+
+<title>Hà Huy Long Nhật | Hà Nhật | venom – Lập trình & An ninh mạng</title>
+<meta name="description" content="Hà Huy Long Nhật (Hà Nhật, venom) – người trẻ đam mê Công nghệ thông tin, lập trình website và nghiên cứu an ninh mạng. Cựu học sinh THCS Hà Huy Tập, hiện đang học THPT Cẩm Xuyên.">
+<meta name="author" content="Hà Huy Long Nhật">
+<meta name="keywords" content="Hà Huy Long Nhật, Hà Nhật, venom, lập trình, an ninh mạng, THCS Hà Huy Tập, THPT Cẩm Xuyên, HUST">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<link rel="canonical" href="YOUR_WEBSITE_URL">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Hà Huy Long Nhật | Hà Nhật | venom – Lập trình & An ninh mạng">
+<meta property="og:description" content="Hà Huy Long Nhật (venom) – Lập trình website & nghiên cứu an ninh mạng. Cựu HS THCS Hà Huy Tập, hiện học THPT Cẩm Xuyên.">
+<meta property="og:image" content="YOUR_WEBSITE_URL/assets/avatar.jpg">
+<meta property="og:url" content="YOUR_WEBSITE_URL">
+<meta property="og:site_name" content="Hà Nhật">
+<meta property="og:locale" content="vi_VN">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hà Huy Long Nhật | Hà Nhật | venom">
+<meta name="twitter:description" content="Lập trình website & nghiên cứu an ninh mạng.">
+<meta name="twitter:image" content="YOUR_WEBSITE_URL/assets/avatar.jpg">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hà Huy Long Nhật",
+  "alternateName": ["Hà Nhật", "venom"],
+  "url": "YOUR_WEBSITE_URL",
+  "image": "YOUR_WEBSITE_URL/assets/avatar.jpg",
+  "sameAs": [
+    "https://www.facebook.com/ha.nhat.11082011/",
+    "https://www.tiktok.com/@hanhat_huster",
+    "https://github.com/hahuylongnhat"
+  ],
+  "jobTitle": "Lập trình viên & Nghiên cứu An ninh mạng",
+  "description": "Hà Huy Long Nhật (Hà Nhật, venom) – Lập trình website và nghiên cứu an ninh mạng.",
+  "knowsAbout": [
+    "Information Technology",
+    "Programming",
+    "Web Development",
+    "Cybersecurity",
+    "Information Security",
+    "Technology"
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "THCS Hà Huy Tập"
+    }
+  ],
+  "affiliation": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "THPT Cẩm Xuyên"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+<canvas id="particlesCanvas"></canvas>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">
+      <span class="logo-mark">&lt;/&gt;</span>
+      <span class="logo-text">HÀ NHẬT</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#passion" class="nav-link">Passion</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#journey" class="nav-link">Journey</a></li>
+      <li><a href="#dream" class="nav-link">Dream</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-container">
+    <div class="hero-left reveal">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        <span>Available for learning</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-hi">HELLO, I'M</span>
+        <span class="hero-name">HÀ HUY LONG NHẬT</span>
+      </h1>
+      <div class="hero-alias">
+        <span class="alias">Hà Nhật</span>
+        <span class="dot-sep">•</span>
+        <span class="alias accent">venom</span>
+      </div>
+      <p class="hero-tagline">
+        <span id="typedText"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        Một người trẻ đam mê Công nghệ thông tin, lập trình website và nghiên cứu an ninh mạng.
+        Luôn tò mò về công nghệ và cách những ý tưởng có thể trở thành sản phẩm thực tế.
+      </p>
+      <div class="hero-cta-primary">
+        <a href="#about" class="btn btn-primary">
+          <span>KHÁM PHÁ PROFILE</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#achievements" class="btn btn-achievement">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+          <span>XEM THÀNH TÍCH</span>
+        </a>
+      </div>
+
+      <div class="hero-cta-social">
+        <a href="https://www.facebook.com/ha.nhat.11082011/" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>FACEBOOK</span>
+        </a>
+        <a href="https://www.tiktok.com/@hanhat_huster" target="_blank" rel="noopener noreferrer" class="btn btn-tiktok">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg>
+          <span>TIKTOK</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num" data-count="2022">0</div>
+          <div class="stat-label">Năm khởi đầu</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="6">0</div>
+          <div class="stat-label">Lĩnh vực đam mê</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="100">0</div>
+          <div class="stat-label">% Nhiệt huyết</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right reveal">
+      <div class="avatar-wrap">
+        <div class="avatar-ring"></div>
+        <div class="avatar-ring ring-2"></div>
+        <div class="avatar-core">
+          <img src="assets/avatar.jpg" alt="Hà Huy Long Nhật" onerror="this.style.display='none'; this.parentNode.classList.add('no-img');">
+          <div class="avatar-fallback">HN</div>
+        </div>
+        <div class="avatar-glow"></div>
+      </div>
+      <div class="code-card">
+        <div class="code-head">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-file">profile.js</span>
+        </div>
+        <pre class="code-body"><span class="c-key">const</span> <span class="c-var">me</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Hà Huy Long Nhật"</span>,
+  <span class="c-prop">alias</span>: <span class="c-str">"Hà Nhật"</span>,
+  <span class="c-prop">nickname</span>: <span class="c-str">"venom"</span>,
+  <span class="c-prop">field</span>: <span class="c-str">"IT &amp; Cybersecurity"</span>,
+  <span class="c-prop">from</span>: <span class="c-str">"THCS Hà Huy Tập"</span>,
+  <span class="c-prop">now</span>: <span class="c-str">"THPT Cẩm Xuyên"</span>,
+  <span class="c-prop">dream</span>: <span class="c-str">"HUST"</span>
+};</pre>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint">
+    <span>Scroll</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+  </a>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">01 — ABOUT</span>
+      <h2 class="section-title">Xin chào, mình là <span class="grad">Hà Nhật</span>.</h2>
+      <p class="section-sub">Một người trẻ yêu công nghệ và luôn muốn học hỏi.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Mình là <strong>Hà Huy Long Nhật</strong>, mọi người thường gọi mình là <strong>Hà Nhật</strong> hoặc <strong>venom</strong>. Mình là một người trẻ có niềm đam mê với Công nghệ thông tin và những điều thú vị xoay quanh máy tính, lập trình và công nghệ.</p>
+        <p>Với mình, công nghệ không chỉ là những dòng code mà còn là cách biến ý tưởng thành những sản phẩm có thể sử dụng trong thực tế.</p>
+        <p>Mình đặc biệt quan tâm đến <strong>lập trình website</strong> và <strong>an ninh mạng</strong>. Mình đã và đang tham gia nghiên cứu, phát triển các dự án liên quan đến bảo mật thông tin và xây dựng sản phẩm web.</p>
+        <p>Mình muốn không ngừng học hỏi, phát triển kỹ năng và từng bước tiến gần hơn tới ước mơ của mình.</p>
+      </div>
+      <div class="about-info reveal">
+        <div class="info-item">
+          <div class="info-label">Họ và tên</div>
+          <div class="info-value">Hà Huy Long Nhật</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Sinh ngày</div>
+          <div class="info-value">11/08/2011</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Tên thường gọi</div>
+          <div class="info-value">Hà Nhật</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Nickname</div>
+          <div class="info-value accent">venom</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Lĩnh vực</div>
+          <div class="info-value">Công nghệ thông tin · An ninh mạng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">02 — EDUCATION</span>
+      <h2 class="section-title">Học vấn <span class="grad">của mình</span></h2>
+      <p class="section-sub">Nhấn vào mỗi thẻ để xem chi tiết về ngôi trường đó.</p>
+    </div>
+    <div class="education-grid">
+      <div class="edu-card reveal" data-school="thcs">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-status">Đã từng học</div>
+        <h3 class="edu-school">THCS Hà Huy Tập</h3>
+        <p class="edu-desc">Nơi mình bắt đầu hành trình học tập và nuôi dưỡng niềm đam mê công nghệ.</p>
+      </div>
+      <div class="edu-card edu-card-current reveal" data-school="thpt">
+        <div class="edu-badge">Hiện tại</div>
+        <div class="edu-icon">🚀</div>
+        <div class="edu-status">Đang theo học</div>
+        <h3 class="edu-school">THPT Cẩm Xuyên</h3>
+        <p class="edu-desc">Nơi mình tiếp tục trau dồi kiến thức về Công nghệ thông tin và an ninh mạng.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="passion">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">03 — PASSION</span>
+      <h2 class="section-title">Điều mình <span class="grad">đam mê</span></h2>
+      <p class="section-sub">Nhấn vào mỗi thẻ để xem chi tiết về lĩnh vực đó.</p>
+    </div>
+    <div class="passion-grid" id="passionGrid"></div>
+  </div>
+</section>
+
+<section class="section section-achievements" id="achievements">
+  <div class="achievements-bg"></div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">04 — ACHIEVEMENTS</span>
+      <h2 class="section-title">Thành tích <span class="grad">của mình</span></h2>
+      <p class="section-sub">Những cột mốc và thành tựu mình đã đạt được trên con đường học tập và theo đuổi công nghệ.</p>
+    </div>
+
+    <div class="achievements-grid" id="achievementsGrid"></div>
+
+    <div class="achievements-empty" id="achievementsEmpty">
+      <div class="empty-icon">🏆</div>
+      <h3>Thành tích đang được cập nhật</h3>
+      <p>Những cột mốc và thành tựu sẽ sớm được bổ sung tại đây.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="journey">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">05 — JOURNEY</span>
+      <h2 class="section-title">Hành trình <span class="grad">của mình</span></h2>
+      <p class="section-sub">Những bước đi trên con đường theo đuổi công nghệ.</p>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<section class="section section-dream" id="dream">
+  <div class="dream-lines"></div>
+  <div class="dream-particles" id="dreamParticles"></div>
+  <div class="container">
+    <div class="dream-content reveal">
+      <span class="section-tag dream-tag">06 — DREAM</span>
+      <h2 class="dream-title">MY DREAM</h2>
+      <div class="dream-big">HUST</div>
+      <div class="dream-sub">Đại học Bách khoa Hà Nội</div>
+      <p class="dream-desc">
+        Một trong những ước mơ của mình là được học tập tại <strong>HUST – Đại học Bách khoa Hà Nội</strong>,
+        tiếp tục theo đuổi Công nghệ thông tin và biến niềm đam mê công nghệ thành năng lực thực tế.
+      </p>
+      <div class="dream-note">
+        <span class="note-icon">✦</span>
+        <span>Đây là <strong>ước mơ</strong> và <strong>mục tiêu</strong> của mình, không phải thông tin hiện tại.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="social">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">07 — SOCIAL</span>
+      <h2 class="section-title">Find me <span class="grad">online</span></h2>
+      <p class="section-sub">Kết nối với mình qua những kênh dưới đây.</p>
+    </div>
+
+    <div class="social-list">
+      <div class="social-card reveal">
+        <div class="social-icon-fb">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </div>
+        <div class="social-info">
+          <h3>Hà Huy Long Nhật</h3>
+          <p class="social-username">@ha.nhat.11082011</p>
+          <p class="social-note">Facebook chính thức của mình.</p>
+        </div>
+        <a href="https://www.facebook.com/ha.nhat.11082011/" target="_blank" rel="noopener noreferrer" class="btn btn-primary social-btn">
+          <span>VISIT FACEBOOK</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="social-card social-card-tiktok reveal">
+        <div class="social-icon-tiktok">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg>
+        </div>
+        <div class="social-info">
+          <h3>TikTok của mình</h3>
+          <p class="social-username">@hanhat_huster</p>
+          <p class="social-note">Kênh TikTok cá nhân của mình.</p>
+        </div>
+        <a href="https://www.tiktok.com/@hanhat_huster" target="_blank" rel="noopener noreferrer" class="btn btn-tiktok social-btn">
+          <span>VISIT TIKTOK</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div class="contact-glow"></div>
+      <span class="section-tag">08 — CONTACT</span>
+      <h2 class="contact-title">Let's <span class="grad">connect</span></h2>
+      <p class="contact-desc">
+        Nếu bạn muốn tìm hiểu thêm về mình hoặc kết nối, hãy ghé qua trang Facebook của mình.
+      </p>
+      <a href="https://www.facebook.com/ha.nhat.11082011/" target="_blank" rel="noopener noreferrer" class="btn btn-facebook contact-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        <span>Facebook của mình</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">&lt;/&gt; HÀ NHẬT</div>
+        <p class="footer-name">Hà Huy Long Nhật</p>
+        <p class="footer-alias">Hà Nhật • venom</p>
+        <p class="footer-tag">Technology Enthusiast</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#passion">Passion</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#journey">Journey</a>
+        <a href="#dream">Dream</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/ha.nhat.11082011/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@hanhat_huster" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Hà Huy Long Nhật. All rights reserved.</p>
+      <p class="footer-note">Made with ❤️ and code</p>
+    </div>
+  </div>
+</footer>
+
+<div class="topic-modal" id="topicModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="topic-modal-overlay" id="topicModalOverlay"></div>
+  <div class="topic-modal-card" id="topicModalCard">
+    <button class="topic-modal-close" id="topicModalClose" aria-label="Đóng">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="topic-modal-image">
+      <img id="topicImage" src="" alt="">
+      <div class="topic-modal-image-glow"></div>
+    </div>
+    <div class="topic-modal-body">
+      <div class="topic-modal-icon" id="topicIcon"></div>
+      <h3 class="topic-modal-title" id="topicTitle"></h3>
+      <p class="topic-modal-desc" id="topicDesc"></p>
+      <div class="topic-modal-section">
+        <div class="topic-modal-section-title">
+          <span class="topic-modal-dot"></span>
+          <span>Kiến thức nền tảng</span>
+        </div>
+        <ul class="topic-modal-list" id="topicList"></ul>
+      </div>
+      <div class="topic-modal-section">
+        <div class="topic-modal-section-title">
+          <span class="topic-modal-dot"></span>
+          <span>Ứng dụng thực tế</span>
+        </div>
+        <ul class="topic-modal-list" id="topicList2"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="school-modal" id="schoolModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="school-modal-overlay" id="schoolModalOverlay"></div>
+  <div class="school-modal-card" id="schoolModalCard">
+    <button class="school-modal-close" id="schoolModalClose" aria-label="Đóng">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+
+    <div class="school-modal-hero">
+      <div class="school-modal-icon" id="schoolModalIcon">🎓</div>
+      <div class="school-modal-status" id="schoolModalStatus">Đang theo học</div>
+      <h2 class="school-modal-title" id="schoolModalTitle">THPT Cẩm Xuyên</h2>
+    </div>
+
+    <div class="school-modal-links">
+      <a href="https://www.tiktok.com/@10a6.k65_thptcx" target="_blank" rel="noopener noreferrer" class="school-modal-link school-modal-link-tiktok" id="schoolTiktokBtn">
+        <div class="school-modal-link-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg>
+        </div>
+        <div class="school-modal-link-text">
+          <div class="school-modal-link-label">Đây là TikTok của lớp mình</div>
+          <div class="school-modal-link-desc">Nhấn để xem TikTok lớp 10A6 K65</div>
+        </div>
+        <div class="school-modal-link-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="https://www.facebook.com/thptcamxuyen.hatinh" target="_blank" rel="noopener noreferrer" class="school-modal-link school-modal-link-school" id="schoolWebsiteBtn">
+        <div class="school-modal-link-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </div>
+        <div class="school-modal-link-text">
+          <div class="school-modal-link-label">Đây là Facebook của trường mình</div>
+          <div class="school-modal-link-desc">Nhấn để xem trang Facebook trường</div>
+        </div>
+        <div class="school-modal-link-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+    </div>
+
+    <div class="school-modal-content">
+      <div class="school-modal-section-title">
+        <span class="school-modal-dot"></span>
+        <span>Giới thiệu</span>
+      </div>
+      <p class="school-modal-desc" id="schoolModalDesc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
